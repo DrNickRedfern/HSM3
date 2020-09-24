@@ -1,4 +1,9 @@
-HSM3 <- function(x){ # x is an image file
+# The input for the function is an image file
+# Requires imager to obtain RGB colour channels
+
+HSM3 <- function(x){ 
+  
+  library(imager)
   
   r <- R(x) * 255; g <- G(x) * 255; b <- B(x) * 255 
   
