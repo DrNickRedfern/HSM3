@@ -5,10 +5,9 @@
 #' Uses imager \url{http://dahtah.github.io/imager/}
 #'
 #' @param x An image file
-#' @return Numeric The Hasler and Süsstrunck M3 metric
-#'
-#' @example
 #' 
+#' @example
+#' \url{https://github.com/DrNickRedfern/HSM3/blob/master/README.md}
 #'
 #' @author Nick Redfern \email{nickredfernres@outlook.com}
 #'
