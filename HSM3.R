@@ -31,6 +31,6 @@ HSM3 <- function(x){
   mean_rgyb <- sqrt( (mean_rg^2) + (mean_yb^2) )
   sd_rgyb <- sqrt( (sd_rg^2) + (sd_yb^2) )
   
-  return(sd_rgyb + (0.3 * mean_rgyb)
+  return(sd_rgyb + (0.3 * mean_rgyb))
   
 }
