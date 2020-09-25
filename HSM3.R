@@ -25,7 +25,7 @@ HSM3 <- function(x){
   rg <- r - g
   yb <- 0.5 * (r + g) - b
   
-  mean_rg <- mean(rg); meam_yb <- mean(yb)
+  mean_rg <- mean(rg); mean_yb <- mean(yb)
   sd_rg <- sd(rg); s_yb <- sd(yb)
   
   mean_rgyb <- sqrt( (mean_rg^2) + (m_yb^2) )
