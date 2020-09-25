@@ -26,11 +26,11 @@ HSM3 <- function(x){
   yb <- 0.5 * (r + g) - b
   
   mean_rg <- mean(rg); mean_yb <- mean(yb)
-  sd_rg <- sd(rg); s_yb <- sd(yb)
+  sd_rg <- sd(rg); sd_yb <- sd(yb)
   
-  mean_rgyb <- sqrt( (mean_rg^2) + (m_yb^2) )
-  s_rgyb <- sqrt( (s_rg^2) + (s_yb^2) )
+  mean_rgyb <- sqrt( (mean_rg^2) + (mean_yb^2) )
+  sd_rgyb <- sqrt( (sd_rg^2) + (sd_yb^2) )
   
-  return(s_rgyb + (0.3 * m_rgyb)
+  return(sd_rgyb + (0.3 * mean_rgyb)
   
 }
