@@ -35,7 +35,7 @@ _**The Lego Batman Movie**_<br/>
 _**John Wick: Chapter 3 - Parabellum**_<br/>
 ![John Wick 3 Smoothed Barcode](Barcodes/John_Wick_3.png)
 
-The barcode of the trailer for *The Lego Batman Movie* has a colourfullness of 94.31, classing it as 'highly colourful,' whereas the trailer for *John Wick: Chapter 3* has a colourfulness of 44.18, which is almost 'averagely colourful.'
+The barcode of the trailer for *The Lego Batman Movie* has a colourfullness of 91.3, classing it as 'highly colourful,' whereas the trailer for *John Wick: Chapter 3* has a colourfulness of 42.8, which is almost 'averagely colourful.'
 
 ## References
 Hasler, D. and Süsstrunk, S. E. (2003) Measuring colorfulness in natural images, Proc. IS&T/SPIE Electronic Imaging 2003: Human Vision and Electronic Imaging VIII (17 June 2003) 5007: 87-95. https://doi.org/10.1117/12.477378.
