@@ -25,7 +25,7 @@ The interpretation of the metric is based on a category scaling experiment in wh
 * extremely colourful = 109.
 
 ## Example
-The only argument for `HSM3` is `x`, which is an image in the namespace loaded using `imager::load.image`.
+The only argument for `HSM3` is `x`, which is an image loaded using `imager::load.image`.
 
 To illustrate the fucntion we can compare the colourfulness of the [smoothed barcodes](https://zerowidthjoiner.net/movie-barcode-generator) for the trailers to *The Lego Batman Movie* and *John Wick: Chapter 3 - Parabellum*.
 
