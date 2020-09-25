@@ -1,5 +1,10 @@
-# The input for the function is an image file
-# Requires imager to obtain RGB colour channels
+#' HSM3
+#' 
+#' Calculates the Hasler and Süsstrunck M3 colourfulness metric \url{https://doi.org/10.1117/12.477378}
+#' 
+#' @param x an image file
+#' @return numeric
+#' @author Nick Redfern \email{nickredfernres@outlook.com}
 
 HSM3 <- function(x){ 
   
@@ -10,15 +15,13 @@ HSM3 <- function(x){
   rg <- r - g
   yb <- 0.5 * (r + g) - b
   
-  m.rg <- mean(rg); m.yb <- mean(yb)
-  s.rg <- sd(rg); s.yb <- sd(yb)
+  mean_rg <- mean(rg); meam_yb <- mean(yb)
+  sd_rg <- sd(rg); s_yb <- sd(yb)
   
-  m.rgyb <- sqrt( (m.rg^2) + (m.yb^2) )
+  mean_rgyb <- sqrt( (mean_rg^2) + (m_yb^2) )
   
-  s.rgyb <- sqrt( (s.rg^2) + (s.yb^2) )
+  s_rgyb <- sqrt( (s_rg^2) + (s_yb^2) )
   
-  h <- s.rgyb + (0.3 * m.rgyb)
-  
-  return(h)
+  return(s_rgyb + (0.3 * m_rgyb)
   
 }
