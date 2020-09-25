@@ -1,10 +1,21 @@
 #' HSM3
 #' 
-#' Calculates the Hasler and Süsstrunck M3 colourfulness metric \url{https://doi.org/10.1117/12.477378}
+#' Calculates the Hasler and Süsstrunck (2003) M3 colourfulness metric 
 #' 
-#' @param x an image file
-#' @return numeric
+#' Uses imager \url{http://dahtah.github.io/imager/}
+#'
+#' @param x An image file
+#' @return Numeric The Hasler and Süsstrunck M3 metric
+#'
+#' @example
+#' 
+#'
 #' @author Nick Redfern \email{nickredfernres@outlook.com}
+#'
+#' @references
+#' Hasler, D. and Süsstrunk, S. E. (2003) Measuring colorfulness in natural images, 
+#' Proc. IS&T/SPIE Electronic Imaging 2003: Human Vision and Electronic Imaging VIII (17 June 2003) 5007: 87-95.
+#' \url{https://doi.org/10.1117/12.477378}
 
 HSM3 <- function(x){ 
   
