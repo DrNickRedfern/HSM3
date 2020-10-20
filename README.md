@@ -27,7 +27,7 @@ The interpretation of the metric is based on a category scaling experiment in wh
 ## Example
 The only argument for `HSM3` is `x`, which is an image loaded using `imager::load.image`.
 
-To illustrate the fucntion we can compare the colourfulness of the [smoothed barcodes](https://zerowidthjoiner.net/movie-barcode-generator) for the trailers to *The Lego Batman Movie* and *John Wick: Chapter 3 - Parabellum*.
+To illustrate the function we can compare the colourfulness of the [smoothed barcodes](https://zerowidthjoiner.net/movie-barcode-generator) for the trailers to *The Lego Batman Movie* and *John Wick: Chapter 3 - Parabellum*.
 
 _**The Lego Batman Movie**_<br/>
 ![The Lego Batman Movie Smoothed Barcode](Barcodes/The_Lego_Batman_Movie.png)
