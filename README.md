@@ -1,5 +1,7 @@
 # HSM3
 
+[![DOI](https://zenodo.org/badge/298315379.svg)](https://zenodo.org/badge/latestdoi/298315379)
+
 `HSM3` implements the Hasler and Süsstrunk M3 metric of image colourfulness (Hasler and Süsstrunck 2003). 
 
 The M3 metric is a linear combination of the mean and standard deviation of an opponent sRGB colour space defined by <img src="https://render.githubusercontent.com/render/math?math=rg%20=%20R%20-%20G"> and <img src="https://render.githubusercontent.com/render/math?math=yb+%3D+0.5%28R%2BG%29-B">. The M3 metric is then calculated as 
